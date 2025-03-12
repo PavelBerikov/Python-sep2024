@@ -25,7 +25,7 @@
 # table()
 # print(globals())
 
-# def test():
+# def dqwdfqw():
 #     name = 'Max'
 #     def get_name():
 #          print(name)
@@ -35,7 +35,7 @@
 #     return [get_name, set_name]
 #
 #
-# get_name, set_name = test()
+# get_name, set_name = dqwdfqw()
 # get_name()
 # set_name('Lol')
 # get_name()

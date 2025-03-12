@@ -146,6 +146,8 @@ class Main:
             if isinstance(item, Book):
                 mgzns.append(item)
         print(mgzns)
+
+
 Main.add(Magazine('Magazine1'))
 Main.add(Book('Book1'))
 Main.add(Magazine('Magazine3'))
@@ -154,19 +156,3 @@ Main.add(Book('Book2'))
 Main.show_all_magazines()
 print('-' * 40)
 Main.show_all_books()
-
-    # Приклад:
-        #
-
-    # для
-    # перевірки
-    # ксассів
-    # використовуємо
-    # метод
-    # isinstance, приклад:
-    #
-    # user = User('Max', 15)
-    # shape = Shape()
-    #
-    # isinstance(max, User) -> True
-    # isinstance(shape, User) -> False
